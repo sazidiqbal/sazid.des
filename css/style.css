@@ -46,7 +46,6 @@ body .hidden {
 }
 body .show {
   opacity: 1;
-  transform: translateY(0);
 }
 @media (prefers-reduced-motion: reduce) {
   body .hidden {
@@ -521,6 +520,7 @@ body .conclusion .container .split .section p {
   }
   body .work .container .card-container .project-card {
     width: calc(50% - 16px);
+    margin-bottom: 35px;
   }
   body .work .container .card-container .project-card a img {
     width: 100%;
